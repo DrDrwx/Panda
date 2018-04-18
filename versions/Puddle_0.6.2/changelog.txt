@@ -1,0 +1,30 @@
+# Panda Module
+# Current Version: Puddle (0.6.1)
+
+Change Log
+
+Logger changes:
+-----------x-\
+Water      | 0.7.1: Add log Queueing system, to pick up excessive calls.
+Puddle     | 0.6.2: Added ability to change logFile per function call.
+Puddle     | 0.6.1: Added: warn, debug, error, success function log outputs. 
+Slush      | 0.5.1: The Ability to surpress verbose output but still write.
+Mud Slide  | 0.4.1: set the default log name to the name of the calling script.
+Mud        | 0.3.1: Added ability to surpress writing to the log file.
+Wet Dirt   | 0.2.1: New Logger Class based on Dirt 0.1.1 function. 
+Dirt       | 0.1.1: Simple Logging Function to write to files and print to screen.
+-----------x-/
+
+Logger Future Features:
+ [+] Add the ability to queue log requests, to support higher volumes.
+
+Logger Completed Features:
+ [+] Added ability to change the logFile per function. (Puddle, 0.6.2)
+ 
+ [+] Added warn, debug, error and success functions to the Logger class.
+     Allows different entries in the log output. (Puddle, 0.6.1)
+
+ [+] The Ability to surpress verbose output and only write. (Slush, 0.5.1)
+
+ [+] set the default log name value, to the calling script's name. 
+	"website.py", "website.plog" (Mud, 0.4.1)
