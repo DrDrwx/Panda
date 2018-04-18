@@ -26,7 +26,7 @@ With example outputs:
 [2018-04-18 22:04:49] [+] Success: Success message
 ```
 
-Each of these functions have `verbose`, `write` and `logFile` flags preset.
+Each of these functions have `verbose` and `write` flags preset.
 You can overwrite each of these to further control the logging, an example:
 
 ```python
@@ -34,7 +34,9 @@ logger.debug('Something happened...')
 ```
 Each function comes with a timestamp by default.
 The above would output the following, for example:
-`[2018-04-18 22:04:49] [D] Debug: Something happened...`
+```text
+[2018-04-18 22:04:49] [D] Debug: Something happened...
+```
 
 However, is it possible to only print these to the screen by doing:
 ```python
