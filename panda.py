@@ -1,7 +1,7 @@
 # Author  : @DivorcedRSAKey
 # Purpose : This library was designed to keep me from rewriting all my code constantly
 #           for different projects.
-# Version : Puddle (0.6.6)
+# Version : Puddle (0.6.7)
 
 import sys
 calling_file = sys.argv[0].split(".py")[0]
@@ -9,7 +9,7 @@ if calling_file == "":
     calling_file="panda"
 
 class Logger():
-    def __init__(self, logFile="%s.log" % calling_file, verbose=True, write=True, debug=True):
+    def __init__(self, logFile="log.%s" % calling_file, verbose=True, write=True, debug=True):
         self.strf = "[%Y-%m-%d %H:%M:%S]"
         self.types = {
             "error": "[!]",
