@@ -1,7 +1,7 @@
 # Author  : @DivorcedRSAKey
 # Purpose : This library was designed to keep me from rewriting all my code constantly
 #           for different projects.
-# Version : Puddle (0.6.7)
+# Version : Puddle (0.6.8)
 
 import sys
 calling_file = sys.argv[0].split(".py")[0]
