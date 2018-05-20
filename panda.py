@@ -73,4 +73,3 @@ class Logger():
             lf = open(self.logFile, "a")
             lf.write(log+"\n")
             lf.close()
-

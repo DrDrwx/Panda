@@ -7,7 +7,7 @@ So far it contains a Logger class.
 ## Logger: Features
 Once initialised:
 ```python
-logger = panda.Logger(logFile='panda.plog', verbose=True, write=True, debug=True)
+logger = panda.Logger(logFile='log.panda', verbose=True, write=True, debug=True)
 ```
 The logger has the following options:
 ```python
